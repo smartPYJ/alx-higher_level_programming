@@ -2,7 +2,7 @@
 def roman_to_int(roman_string):
     decode = []
     roman = {"X": 10, "L": 50, "V": 5, "I": 1, "C": 100, "D": 500, "M": 1000}
-    if type(roman_string) != 'str' or roman_string is None:
+    if type(roman_string) is not str or roman_string is None:
         return 0
     else:
         for j in roman_string:
