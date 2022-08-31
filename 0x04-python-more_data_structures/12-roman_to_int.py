@@ -10,6 +10,7 @@ def roman_to_int(roman_string):
     while i < len(decode) - 1:
         if decode[i] < decode[i+1]:
             sumup += (decode[i+1] - decode[i])
+	    i += 1
         else:
             sumup += decode[i]
         i += 1
