@@ -6,4 +6,4 @@ def print_sorted_dictionary(a_dictionary):
     keys.sort()
 
     for i in keys:
-        print(i, ":", a_dictionary.get(i))
+        print(i+":"+a_dictionary.get(i))
